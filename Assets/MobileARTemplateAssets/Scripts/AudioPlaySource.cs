@@ -6,7 +6,6 @@ public class AudioPlaySource : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
-        AudioSource.play();
     }
 
     // Update is called once per frame
@@ -14,7 +13,8 @@ public class AudioPlaySource : MonoBehaviour
     {
     }
 
-    public void playing(){
-        AudioSource.play();
+    public void Play()
+    {
+        audioSource.Play();
     }
 }
