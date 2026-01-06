@@ -15,6 +15,6 @@ public class AudioPlaySource : MonoBehaviour
     }
 
     public void playing(){
-        audioSource.play();
+        AudioSource.play();
     }
 }
