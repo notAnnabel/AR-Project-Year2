@@ -73,13 +73,16 @@ PrefabInstance:
       addedObject: {fileID: -7662057252112567338}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4516621027141780112}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 5429903022708332644}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4537743639485436647}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7409598100228092028}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107100755019262273}
   m_SourcePrefab: {fileID: 100100000, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
 --- !u!1 &8294361541381414475 stripped
 GameObject:
@@ -99,9 +102,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1107100755019262273}
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -121,19 +125,7 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -158,9 +150,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7409598100228092028}
+        m_TargetAssemblyTypeName: SetSelectedState, Assembly-CSharp
+        m_MethodName: SetSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7409598100228092028}
+        m_TargetAssemblyTypeName: SetSelectedState, Assembly-CSharp
+        m_MethodName: SetUnselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -184,27 +200,6 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AutoFindParentInteractableInHierarchy: 0
   m_ParentInteractableObject: {fileID: 0}
---- !u!65 &4516621027141780112
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8294361541381414475}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 2.8965046, z: 1}
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &5429903022708332644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,3 +310,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7409598100228092028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294361541381414475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0817ca3f9c0af8b4797e1c58f55cf780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedMaterial: {fileID: 2100000, guid: cf896346214f9834f9817f5f1a1e046a, type: 2}
+--- !u!135 &1107100755019262273
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294361541381414475}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.3244232
+  m_Center: {x: -0.24273396, y: 1.4948175, z: 0}
