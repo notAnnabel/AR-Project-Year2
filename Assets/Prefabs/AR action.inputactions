@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "AR action",
+    "maps": [
+        {
+            "name": "XRI",
+            "id": "d56712b9-364f-42cb-82d8-1462c58ec349",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "0180bc5c-07ad-4ff4-b086-3d081133a1df",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "27e1f67c-4484-4aea-8602-27bd5300078a",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
