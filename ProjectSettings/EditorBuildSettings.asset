@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/XmasPlaceables.unity
     guid: d6f67e928f0f9334592b6defecd2fb40
   - enabled: 1
-    path: Assets/ar-project-year2.unity
+    path: Assets/Scenes/ar-project-year2.unity
     guid: 06ed9f2c5019ba84fa58a1bb5571de95
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
