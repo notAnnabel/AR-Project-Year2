@@ -20,8 +20,8 @@
                 {
                     "name": "",
                     "id": "162bce21-87b0-4221-9b17-33f177fecdd7",
-                    "path": "",
-                    "interactions": "",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "Press",

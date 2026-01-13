@@ -60,13 +60,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5709096842456308149, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: right lower hair
+      objectReference: {fileID: 0}
+    - target: {fileID: -5034035690393509555, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: right upper hair
+      objectReference: {fileID: 0}
     - target: {fileID: -4683669308469848369, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 84d026ecafbc2a3419582b558cf87466, type: 2}
+    - target: {fileID: -1599826595754709761, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: right ponytail
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: back of head hair
+      objectReference: {fileID: 0}
+    - target: {fileID: -466329591000292508, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: left ponytail
+      objectReference: {fileID: 0}
+    - target: {fileID: -208595431880416365, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: top hair
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
       propertyPath: m_Name
       value: miku textureless
+      objectReference: {fileID: 0}
+    - target: {fileID: 1377231274692869484, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: left lower hair
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315123541083827175, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      propertyPath: m_Name
+      value: left upper hair
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -87,7 +119,55 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
       insertIndex: -1
       addedObject: {fileID: 840148508274792974}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1991473065518791724}
   m_SourcePrefab: {fileID: 100100000, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+--- !u!1 &198439578607141001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -208595431880416365, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &458618964337148030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -466329591000292508, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &507894895594775306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1591549809228976101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1599826595754709761, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2916581411647146237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6315123541083827175, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5042227316349633111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5034035690393509555, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5673460796940821386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5663774916797972336, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5701313702283183441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5709096842456308149, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7838230092867051126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1377231274692869484, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
+  m_PrefabInstance: {fileID: 9212698190652793626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8294361541381414475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da7f7bf5dd7ef744bb92192b6a6b024, type: 3}
@@ -154,9 +234,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1991473065518791724}
+        m_TargetAssemblyTypeName: SwitcHairMaterialTextures, Assembly-CSharp
+        m_MethodName: SetSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1991473065518791724}
+        m_TargetAssemblyTypeName: SwitcHairMaterialTextures, Assembly-CSharp
+        m_MethodName: SetUnselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -332,3 +436,28 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.7322173
   m_Center: {x: 0, y: 1.2322178, z: 0}
+--- !u!114 &1991473065518791724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294361541381414475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689578475908d6548933b26ea7eae3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedMaterial: {fileID: 2100000, guid: ba85e4f16b6cbc8408d0b32c1c277992, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 54f6d329ecae10a479bfac5d1ad3420e, type: 2}
+  hairObjects:
+  - {fileID: 5673460796940821386}
+  - {fileID: 507894895594775306}
+  - {fileID: 7838230092867051126}
+  - {fileID: 458618964337148030}
+  - {fileID: 2916581411647146237}
+  - {fileID: 5673460796940821386}
+  - {fileID: 5701313702283183441}
+  - {fileID: 1591549809228976101}
+  - {fileID: 5042227316349633111}
+  - {fileID: 198439578607141001}
