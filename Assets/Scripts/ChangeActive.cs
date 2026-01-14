@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class ChangeActive : MonoBehaviour
 {
-
     public GameObject[] objectsToToggle;
+    public Button newButton;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
