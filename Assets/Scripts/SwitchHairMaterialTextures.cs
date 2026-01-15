@@ -1,13 +1,12 @@
 using UnityEngine;
 using System.Collections;
 
-public class SwitcHairMaterialTextures : MonoBehaviour
+public class SwitchHairMaterialTextures : MonoBehaviour
 {
     public Material SelectedMaterial;
     public Material originalMaterial;
 
     public GameObject[] hairObjects;
-    private int TextureIndex = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
